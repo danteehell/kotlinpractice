@@ -1,5 +1,7 @@
 package org.example.app
 
+import org.example.app.strings.hello
+
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,4 +22,6 @@ fun main() {
     println(reverseString("hello"))
 
     println("======================================")
+
+    println(hello())
 }
