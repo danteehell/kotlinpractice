@@ -1,6 +1,7 @@
 package org.example.app
 
 import org.example.app.strings.hello
+import org.example.app.strings.lastName
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -24,4 +25,5 @@ fun main() {
     println("======================================")
 
     println(hello())
+    println(lastName())
 }
