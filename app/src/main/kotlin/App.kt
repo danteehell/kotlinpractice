@@ -1,6 +1,7 @@
 package org.example.app
 
 import org.example.app.strings.chess
+import org.example.app.strings.chessParse
 import org.example.app.strings.hello
 import org.example.app.strings.lastName
 import org.example.app.strings.multiplication
@@ -30,4 +31,5 @@ fun main() {
     println(lastName())
     println(multiplication(8))
     println(chess())
+    println(chessParse())
 }
