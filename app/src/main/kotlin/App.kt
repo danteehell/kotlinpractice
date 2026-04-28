@@ -1,5 +1,13 @@
 package org.example.app
 
+import org.example.app.` comparison`.TaskAccess
+import org.example.app.` comparison`.equality
+import org.example.app.strings.chess
+import org.example.app.strings.chessParse
+import org.example.app.strings.hello
+import org.example.app.strings.lastName
+import org.example.app.strings.multiplication
+
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,4 +28,12 @@ fun main() {
     println(reverseString("hello"))
 
     println("======================================")
+
+    println(hello())
+    println(lastName())
+    println(multiplication(8))
+    println(chess())
+    println(chessParse())
+    println(TaskAccess())
+    print(equality())
 }
