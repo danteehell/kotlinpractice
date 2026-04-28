@@ -1,6 +1,7 @@
 package org.example.app
 
 import org.example.app.` comparison`.TaskAccess
+import org.example.app.` comparison`.equality
 import org.example.app.strings.chess
 import org.example.app.strings.chessParse
 import org.example.app.strings.hello
@@ -34,4 +35,5 @@ fun main() {
     println(chess())
     println(chessParse())
     println(TaskAccess())
+    print(equality())
 }
