@@ -9,6 +9,7 @@ import org.example.app.strings.chessParse
 import org.example.app.strings.hello
 import org.example.app.strings.lastName
 import org.example.app.strings.multiplication
+import org.example.app.cycles.auth
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -40,4 +41,5 @@ fun main() {
     print(equality())
     println(isEcology())
     println(workout())
+    println(auth())
 }
