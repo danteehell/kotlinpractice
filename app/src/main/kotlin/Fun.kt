@@ -12,3 +12,42 @@ fun greet(name: String): String = "Hello, $name"
 fun repeatWord(word: String, times: Int): String = word.repeat(times)
 fun lengthOfString(s: String): Int = s.length
 fun reverseString(s: String): String = s.reversed()
+
+fun play(age: Int): String {
+    var message = if (age >= 18) {
+        "Можно"
+    } else if (age in 16..17) {
+        "С ограничениями"
+    } else { 
+        "Нет"
+    }
+    return message
+}
+
+const val AGE_OF_MAJORITY = 18
+const val RETIREMENT_AGE = 65
+
+fun play2(age: Int): String {
+
+    return when (age) {
+        in 1..17 -> "Нет"
+        in AGE_OF_MAJORITY..RETIREMENT_AGE -> "Да"
+        else -> "Нет (пенс. возраст)"
+    }
+}
+
+val inp = readln()
+
+val inpt = readln().toInt()
+
+val input = readln().toIntOrNull()
+
+val msd = if (age >= AGE_OF_MAJORITY) "Да" else if (age in 16..AGE_OF_MAJORITY-1) "Чучут" else "Нет"
+
+fun trololo(arg: String): String {
+    return when(arg) {
+        "start", "старт" -> "начинаем"
+        "end", "конец" -> "заканчиваем"
+        else -> "чушь"
+    }
+}
