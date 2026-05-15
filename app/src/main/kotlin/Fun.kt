@@ -41,3 +41,13 @@ val inp = readln()
 val inpt = readln().toInt()
 
 val input = readln().toIntOrNull()
+
+val msd = if (age >= AGE_OF_MAJORITY) "Да" else if (age in 16..AGE_OF_MAJORITY-1) "Чучут" else "Нет"
+
+fun trololo(arg: String): String {
+    return when(arg) {
+        "start", "старт" -> "начинаем"
+        "end", "конец" -> "заканчиваем"
+        else -> "чушь"
+    }
+}
